@@ -1,0 +1,9 @@
+setup.py
+man/tak.1
+src/tak/__init__.py
+src/tak.egg-info/PKG-INFO
+src/tak.egg-info/SOURCES.txt
+src/tak.egg-info/dependency_links.txt
+src/tak.egg-info/entry_points.txt
+src/tak.egg-info/requires.txt
+src/tak.egg-info/top_level.txt

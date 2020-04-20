@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: tak
+Version: 0.2.0
+Summary: Create presentations that use the Takahashi method
+Home-page: https://bkomarath.rbgo.in/tak
+Author: Balagopal Komarath
+Author-email: bkomarath@rbgo.in
+License: GPLv3
+Project-URL: Homepage, https://bkomarath.rbgo.in/tak
+Project-URL: Documentation, https://bkomarath.rbgo.in/tak/man
+Project-URL: Source Code, https://www.github.com/balu/tak
+Description: UNKNOWN
+Keywords: tak takahashi presentation slideshow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Office/Business
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ~=3.7

@@ -1,13 +1,14 @@
 from setuptools import setup, find_packages
 setup(
     name                 = 'tak',
-    version              = '0.1.0',
+    version              = '0.2.0',
     install_requires     = [ 'jinja2~=2.10.1' ],
     package_dir          = { '': 'src' },
     packages             = find_packages('src'),
     include_package_data = True,
     package_data         = { 'tak': ['templates/*'] },
-    python_requires      = '~=3.7',
+    data_files           = [('share/man/man1/', ['man/tak.1'])],
+    python_requires      = '~=3.8',
     entry_points         = {
         'console_scripts': [
             'tak=tak:run',
@@ -27,7 +28,7 @@ setup(
 
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
 
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
     keywords     = 'tak takahashi presentation slideshow',
     url          = 'https://bkomarath.rbgo.in/tak',
